@@ -3,12 +3,12 @@ pragma solidity ^0.4.11;
 contract ChainList {
     // Custom types
     struct Article {
-        uint id;
-        address seller;
-        address buyer;
-        string name;
-        string description;
-        uint256 price;
+    uint id;
+    address seller;
+    address buyer;
+    string name;
+    string description;
+    uint256 price;
     }
 
     // State variables
@@ -57,7 +57,9 @@ contract ChainList {
     // fetch and returns all article IDs available for sale
     function getArticlesForSale() public constant returns (uint[]) {
         // we check whether there is at least one article
-        require(articleCounter > 0);
+        if(articleCounter == 0) {
+            return new uint[](0);
+        }
 
         // prepare intermediary array
         uint[] memory articleIds = new uint[](articleCounter);
