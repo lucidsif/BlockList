@@ -3,15 +3,16 @@ pragma solidity ^0.4.11;
 contract ChainList {
     // Custom types
     struct Article {
-    uint id;
-    address seller;
-    address buyer;
-    string name;
-    string description;
-    uint256 price;
+        uint id;
+        address seller;
+        address buyer;
+        string name;
+        string description;
+        uint256 price;
     }
 
     // State variables
+    address owner;
     mapping(uint => Article) public articles;
     uint articleCounter;
 
@@ -29,6 +30,11 @@ contract ChainList {
     string _name,
     uint256 _price
     );
+
+    // constructor
+    function ChainList() {
+        owner = msg.sender;
+    }
 
     // sell an article
     function sellArticle(string _name, string _description, uint256 _price) public {
@@ -110,5 +116,12 @@ contract ChainList {
 
         // trigger the event
         buyArticleEvent(_id, article.seller, article.buyer, article.name, article.price);
+    }
+
+    // kill the smart contract
+    function kill() {
+        // only allowed to the contract's owner
+        require(msg.sender == owner);
+        selfdestruct(owner);
     }
 }
