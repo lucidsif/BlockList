@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>BlockList</title>
+  <title>ChainList from ChainSkills</title>
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +26,7 @@
 <body>
 <div class="container">
   <div class="jumbotron text-center">
-    <h1>BlockList</h1>
+    <h1>ChainList</h1>
   </div>
 
   <div class="col-md-12" id="article-list">
@@ -64,6 +64,10 @@
         <strong>Description</strong>: <span class="article-description"></span><br/>
         <strong>Price (ETH)</strong>: <span class="article-price"></span><br/>
         <strong>Sold by</strong>: <span class="article-seller"></span><br/>
+        <strong>Bought by</strong>: <span class="article-buyer"></span><br/>
+      </div>
+      <div class="panel-footer">
+        <button type="button" class="btn btn-primary btn-success btn-buy" onclick="App.buyArticle(); return false;">Buy</button>
       </div>
     </div>
   </div>
@@ -111,6 +115,9 @@
 
 <div id="footer" class="container">
   <nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="navbar-inner navbar-content-center text-center">
+      <p class="text-muted" credit><a href="http://chainskills.com">ChainSkills</a> - &copy; 2017 - <a href="https://twitter.com/sarbogast">Sebastien Arbogast</a> and <a href="https://twitter.com/eloudsa">Said Eloudrhiri</a></p>
+    </div>
   </nav>
 </div>
 

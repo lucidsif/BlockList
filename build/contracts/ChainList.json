@@ -294,8 +294,344 @@
       "links": {},
       "address": "0x755dbe7507f372e6efe59f0dd42856ca7c857e28",
       "updated_at": 1514147887391
+    },
+    "1514169969951": {
+      "events": {
+        "0x229ecd5f3a912d97d6c520c3ce09b3c5df244541e239b7a3c24d18c06505bcb9": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "_seller",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "_name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "_price",
+              "type": "uint256"
+            }
+          ],
+          "name": "sellArticleEvent",
+          "type": "event"
+        },
+        "0x38beb681bc0237671d2b0a9516f45454a940d09dbb12bdf89fb60ece0dc23178": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "_seller",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "_buyer",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "_name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "_price",
+              "type": "uint256"
+            }
+          ],
+          "name": "buyArticleEvent",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xfb6253a1017249d4f9ef84ef7175ed10305a3542",
+      "updated_at": 1514171127864
+    },
+    "1514172136598": {
+      "events": {
+        "0x229ecd5f3a912d97d6c520c3ce09b3c5df244541e239b7a3c24d18c06505bcb9": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "_seller",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "_name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "_price",
+              "type": "uint256"
+            }
+          ],
+          "name": "sellArticleEvent",
+          "type": "event"
+        },
+        "0x38beb681bc0237671d2b0a9516f45454a940d09dbb12bdf89fb60ece0dc23178": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "_seller",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "_buyer",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "_name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "_price",
+              "type": "uint256"
+            }
+          ],
+          "name": "buyArticleEvent",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xfb0a4e5bbc481ae30826742c325ac26442cf0253",
+      "updated_at": 1514172148972
+    },
+    "1514172949715": {
+      "events": {
+        "0x229ecd5f3a912d97d6c520c3ce09b3c5df244541e239b7a3c24d18c06505bcb9": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "_seller",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "_name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "_price",
+              "type": "uint256"
+            }
+          ],
+          "name": "sellArticleEvent",
+          "type": "event"
+        },
+        "0x38beb681bc0237671d2b0a9516f45454a940d09dbb12bdf89fb60ece0dc23178": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "_seller",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "_buyer",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "_name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "_price",
+              "type": "uint256"
+            }
+          ],
+          "name": "buyArticleEvent",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xfb0a4e5bbc481ae30826742c325ac26442cf0253",
+      "updated_at": 1514173040294
+    },
+    "1514173836178": {
+      "events": {
+        "0x229ecd5f3a912d97d6c520c3ce09b3c5df244541e239b7a3c24d18c06505bcb9": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "_seller",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "_name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "_price",
+              "type": "uint256"
+            }
+          ],
+          "name": "sellArticleEvent",
+          "type": "event"
+        },
+        "0x38beb681bc0237671d2b0a9516f45454a940d09dbb12bdf89fb60ece0dc23178": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "_seller",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "_buyer",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "_name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "_price",
+              "type": "uint256"
+            }
+          ],
+          "name": "buyArticleEvent",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xfb0a4e5bbc481ae30826742c325ac26442cf0253",
+      "updated_at": 1514173848138
+    },
+    "1514174317709": {
+      "events": {
+        "0x229ecd5f3a912d97d6c520c3ce09b3c5df244541e239b7a3c24d18c06505bcb9": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "_seller",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "_name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "_price",
+              "type": "uint256"
+            }
+          ],
+          "name": "sellArticleEvent",
+          "type": "event"
+        },
+        "0x38beb681bc0237671d2b0a9516f45454a940d09dbb12bdf89fb60ece0dc23178": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "_seller",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "_buyer",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "_name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "_price",
+              "type": "uint256"
+            }
+          ],
+          "name": "buyArticleEvent",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xe7194e2016d5454d5791d94d8a6aff6c1ead6457",
+      "updated_at": 1514174659207
+    },
+    "1514175022806": {
+      "events": {
+        "0x229ecd5f3a912d97d6c520c3ce09b3c5df244541e239b7a3c24d18c06505bcb9": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "_seller",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "_name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "_price",
+              "type": "uint256"
+            }
+          ],
+          "name": "sellArticleEvent",
+          "type": "event"
+        },
+        "0x38beb681bc0237671d2b0a9516f45454a940d09dbb12bdf89fb60ece0dc23178": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "_seller",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "_buyer",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "_name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "_price",
+              "type": "uint256"
+            }
+          ],
+          "name": "buyArticleEvent",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xe7194e2016d5454d5791d94d8a6aff6c1ead6457",
+      "updated_at": 1514175036341
     }
   },
   "schema_version": "0.0.5",
-  "updated_at": 1514169051148
+  "updated_at": 1514175036341
 }
