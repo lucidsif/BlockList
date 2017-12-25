@@ -134,11 +134,38 @@
           ],
           "name": "sellArticleEvent",
           "type": "event"
+        },
+        "0x38beb681bc0237671d2b0a9516f45454a940d09dbb12bdf89fb60ece0dc23178": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "_seller",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "_buyer",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "_name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "_price",
+              "type": "uint256"
+            }
+          ],
+          "name": "buyArticleEvent",
+          "type": "event"
         }
       },
       "links": {},
-      "address": "0xe5f1b55a9663cccd4dd6398da48dab4b1a1858c7",
-      "updated_at": 1514150081817
+      "address": "0xb9598edf7892e42b388bd953d3aa5f905823e105",
+      "updated_at": 1514169051148
     },
     "1514088431624": {
       "events": {},
@@ -270,5 +297,5 @@
     }
   },
   "schema_version": "0.0.5",
-  "updated_at": 1514151787083
+  "updated_at": 1514169051148
 }
