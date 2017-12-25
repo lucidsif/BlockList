@@ -118,10 +118,13 @@ contract ChainList {
         buyArticleEvent(_id, article.seller, article.buyer, article.name, article.price);
     }
 
-    // kill the smart contract
-    function kill() {
-        // only allowed to the contract's owner
+    modifier onlyOwner() {
         require(msg.sender == owner);
+        _;
+    }
+
+    // kill the smart contract
+    function kill() onlyOwner {
         selfdestruct(owner);
     }
 }
