@@ -5,12 +5,12 @@ import "./Owned.sol";
 contract ChainList is Owned {
     // Custom types
     struct Article {
-        uint id;
-        address seller;
-        address buyer;
-        string name;
-        string description;
-        uint256 price;
+    uint id;
+    address seller;
+    address buyer;
+    string name;
+    string description;
+    uint256 price;
     }
 
     // State variables
@@ -113,7 +113,6 @@ contract ChainList is Owned {
         // trigger the event
         buyArticleEvent(_id, article.seller, article.buyer, article.name, article.price);
     }
-
 
     // kill the smart contract
     function kill() onlyOwner {
